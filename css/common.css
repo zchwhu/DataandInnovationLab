@@ -1,0 +1,23 @@
+@media (min-width: 1440px) {
+    .container {
+        width: 1360px;
+    }
+}
+@media (min-width: 1600px) {
+    .container {
+        width: 1440px;
+    }
+}
+@media (min-width: 1920px) {
+    .container {
+        width: 1660px;
+    }
+}
+
+li{
+   list-style: none;
+}
+
+p{
+    margin-bottom: 0;
+}
