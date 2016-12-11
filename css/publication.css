@@ -1,0 +1,22 @@
+.active>a:hover{
+    background: #3f9bc9;
+}
+
+.main-area{
+    padding-right: 50px;
+}
+
+.main-area h3{
+    padding-left: 40px;
+}
+
+.pub-item{
+    padding: 15px 20px 15px 5px;
+    border-bottom: 1px solid #eee;
+    line-height: 22px;
+    font-size: 13px;
+}
+
+.pub-item:first-child{
+    padding-top: 0;
+}
