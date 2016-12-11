@@ -1,4 +1,4 @@
-.active:hover{
+.active>a:hover{
     background: #3f9bc9;
 }
 
