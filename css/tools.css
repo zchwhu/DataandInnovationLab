@@ -1,0 +1,93 @@
+.aside-subnav{
+    padding: 10px 10px 10px 30px;
+}
+
+.aside-subnav-item{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.main-area h3{
+    padding-left: 15px;
+}
+
+.tool-item{
+    margin-bottom: 30px;
+    /*margin-right: 10px;*/
+}
+
+.cover{
+    position: absolute;
+    width: calc(100% - 30px);
+    height: 35%;
+    bottom: 0;
+    left: 15px;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fff 70%) repeat scroll 0 0;
+    z-index: 9;
+}
+
+.tool-item-main{
+    padding: 20px;
+    position: relative;
+    box-shadow: 1px 1px 6px #ccc;
+    height: 400px;
+    overflow: hidden;
+}
+
+.tool-avatar{
+    margin: 10px;
+}
+
+.tool-avatar img{
+    width: 100%;
+    height:200px;
+    display: block;
+}
+
+.tool-info{
+    margin: 20px 10px;
+}
+
+.tool-info p{
+    line-height: 25px;
+    color: #4b4b4b;
+}
+
+.tool-info strong{
+    margin-right: 5px;
+}
+
+.tool-desc{
+    position: absolute;
+    height: 200px;
+    background: rgba(0,0,0,.65);
+    color: #fff;
+    width: 100%;
+    left: 0;
+    bottom: -200px;
+    font-size: 12px;
+    padding: 15px;
+    -webkit-transition: all .4s ease-in-out 0s;
+    -moz-transition: all .4s ease-in-out 0s;
+    -ms-transition: all .4s ease-in-out 0s;
+    -o-transition: all .4s ease-in-out 0s;
+    transition: all .4s ease-in-out 0s;
+    overflow: auto;
+    opacity: 0;
+}
+
+.tool-item-main:hover .tool-desc{
+    bottom: 0;
+    opacity: 1;
+}
+
+.tool-more{
+    color: #7e7e7e;
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.tool-more span{
+    margin-left: 5px;
+}
