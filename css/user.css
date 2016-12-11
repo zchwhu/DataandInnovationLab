@@ -37,16 +37,6 @@ input[type='file']{
     text-decoration: none;
 }
 
-.btn-area{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.btn{
-    font-size: 13px;
-}
-
 .select-area{
     margin-top: 20px;
 }
