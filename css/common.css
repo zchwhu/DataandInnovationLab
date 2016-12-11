@@ -61,14 +61,9 @@ main{
     text-decoration: none;
     color: #27607D;
     display: block;
-    -webkit-transition: all .4s ease-in-out 0s;
-    -moz-transition: all .4s ease-in-out 0s;
-    -ms-transition: all .4s ease-in-out 0s;
-    -o-transition: all .4s ease-in-out 0s;
-    transition: all .4s ease-in-out 0s;
 }
 
-.aside-nav-item:hover,.aside-nav-item.active{
+.aside-nav-item>a:hover,.aside-nav-item.active>a{
     color: #fff;
     background-color: #27607D;
 }
@@ -77,13 +72,18 @@ main{
     border-bottom: 1px solid #ccc;
 }
 
-.aside-nav-item a{
+.aside-nav-item>a{
     color: inherit;
     display: block;
     padding: 6px 20px;
+    -webkit-transition: all .4s ease-in-out 0s;
+    -moz-transition: all .4s ease-in-out 0s;
+    -ms-transition: all .4s ease-in-out 0s;
+    -o-transition: all .4s ease-in-out 0s;
+    transition: all .4s ease-in-out 0s;
 }
 
-.aside-nav-item a:hover{
+.aside-nav-item>a:hover{
     text-decoration: none;
 }
 
