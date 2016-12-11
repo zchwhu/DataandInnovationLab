@@ -1,0 +1,53 @@
+.main-area h3{
+    padding: 0 15px;
+}
+
+.person-avatar{
+    text-align: center;
+}
+
+.person-avatar img{
+    max-width: 100%;
+}
+
+.person-info p{
+    line-height: 30px;
+    color: #666;
+    font-size: 15px;
+}
+
+.person-info strong{
+    margin-right: 5px;
+    color: #4b4b4b;
+}
+
+.person-desc,.person-pub{
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 25px;
+    text-align: justify;
+    color: #666;
+}
+
+.person-desc strong,.person-pub strong{
+    display: block;
+    font-size: 15px;
+}
+
+.pub-list{
+    padding: 0;
+}
+
+.person-name{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    font-size: 15px;
+}
+
+.person-link{
+    margin-top: 10px;
+    text-align: center;
+    color: #7e7e7e;
+}
