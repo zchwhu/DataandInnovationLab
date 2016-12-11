@@ -1,0 +1,52 @@
+.aside-subnav{
+    padding: 10px 10px 10px 30px;
+}
+
+.aside-subnav-item{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.main-area{
+    margin-bottom: 20px;
+}
+
+.main-area h3{
+    padding-left: 15px;
+}
+
+.pro-img img{
+    max-width: 100%;
+}
+
+.pro-time{
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #888;
+}
+
+.pro-ins,.pro-depart{
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.pro-depart{
+    margin-bottom: 20px;
+}
+
+.pro-detail{
+    font-size: 13px;
+    line-height: 22px;
+    color: #666;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.pro-img{
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+.pro-img img{
+    width: 100%;
+}
