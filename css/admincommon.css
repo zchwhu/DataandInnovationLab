@@ -1,0 +1,35 @@
+main{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    background-image: none;
+}
+
+.form-control{
+    -webkit-transition: border .4s ease-in-out 0s;
+    -moz-transition: border .4s ease-in-out 0s;
+    -ms-transition: border .4s ease-in-out 0s;
+    -o-transition: border .4s ease-in-out 0s;
+    transition: border .4s ease-in-out 0s;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid #999;
+}
+
+.main-title{
+    margin-bottom: 20px;
+}
+
+label{
+    padding-left: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
