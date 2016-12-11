@@ -1,0 +1,103 @@
+.nav-logo{
+    display: inline-block;
+    background: url("../img/logo.png") no-repeat center;
+    text-indent:-9999px;
+    width: 315px;
+    height: 100px;
+}
+
+.nav-list{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.nav-inner{
+    position: relative;
+}
+
+.nav-item{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 17px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.nav-item::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    background: #0088cf;
+    left: 50%;
+    margin-left: -50%;
+    -webkit-transition: width .4s ease-in-out 0s;
+    -moz-transition: width .4s ease-in-out 0s;
+    -ms-transition: width .4s ease-in-out 0s;
+    -o-transition: width .4s ease-in-out 0s;
+    transition: width .4s ease-in-out 0s;
+}
+
+.nav-item:not(:last-child):hover::after{
+    width: 100%;
+}
+
+.nav-item a{
+    color: #6c6c6c;
+}
+
+.nav-item a:hover{
+    text-decoration: none;
+}
+
+.nav-search{
+    border: 1px solid #ccc;
+    padding: 3px 12px 3px 32px;
+    border-radius: 2px;
+    position: relative;
+    background: url("../img/find.png") no-repeat 8px center;
+}
+
+.nav-search input{
+    border: 0;
+    color: #cfcfcf;
+    font-size: 14px;
+    background: none;
+    -webkit-transition: color .4s ease-in-out 0s;
+    -moz-transition: color .4s ease-in-out 0s;
+    -ms-transition: color .4s ease-in-out 0s;
+    -o-transition: color .4s ease-in-out 0s;
+    transition: color .4s ease-in-out 0s;
+}
+
+.nav-search input:focus{
+    outline: none;
+    color: #666;
+}
+
+.nav-search button{
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    left: 0;
+    top: 0;
+    background: none;
+    border: none;
+}
+
+nav.has-bg{
+    background: rgba(255, 255, 255, 0.94) none repeat scroll 0 0;
+}
+
+.nav-bg{
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../img/navbg.jpg") no-repeat scroll 0 0/100% auto;
+    z-index: -1;
+}
