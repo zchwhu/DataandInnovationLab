@@ -1,0 +1,48 @@
+#userEditor{
+    height: 200px;
+}
+
+.user-avatar{
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.user-avatar img{
+    max-width: 100%;
+}
+
+.upload-avatar{
+    position: relative;
+    margin-top: 20px;
+}
+
+.upload-btn{
+    text-align: center;
+    display: block;
+}
+
+input[type='file']{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.upload-btn:hover{
+    text-decoration: none;
+}
+
+.btn-area{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn{
+    font-size: 13px;
+}
