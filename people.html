@@ -137,5 +137,13 @@
             </div>
         </div>
     </main>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".aside-nav-item").click(function () {
+                $(this).addClass("active").siblings().removeClass("active");
+            });
+        })
+    </script>
 </body>
 </html>
