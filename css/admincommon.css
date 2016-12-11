@@ -33,3 +33,13 @@ label{
 .btn:focus{
     outline: none;
 }
+
+.btn-area{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn{
+    font-size: 13px;
+}
