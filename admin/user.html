@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Admin</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/wangEditor.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/adminnav.css" rel="stylesheet" type="text/css">
+    <link href="../css/admincommon.css" rel="stylesheet" type="text/css">
+    <link href="../css/user.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav>
+        <div class="nav-inner container">
+            <a href="#" class="nav-logo">Data and Innovation Lab</a>
+            <h2 class="pull-right">Content Management</h2>
+        </div>
+    </nav>
+    <header>
+        <ul class="header-inner container">
+            <li class="nav-item active">
+                <a href="#">USER</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">PROJECT</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">NEWS</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">PUBLICATION</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="container">
+            <h3 class="main-title">Personal Information</h3>
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter password">
+                    </div>
+                    <div class="form-group">
+                        <label for="affiliation">Affiliation</label>
+                        <input type="text" class="form-control" id="affiliation" placeholder="Enter affiliation">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Title</label>
+                        <input type="text" class="form-control" id="title" placeholder="Set a title">
+                    </div>
+                    <label>Descriptoion</label>
+                    <textarea id="userEditor" name="desc">
+
+                    </textarea>
+                    <div class="form-group select-area">
+                        <label>Research direction</label>
+                        <select class="form-control" multiple>
+                            <option>No select</option>
+                            <option>Information Retrieval</option>
+                            <option>Library</option>
+                            <option>Information</option>
+                        </select>
+                    </div>
+                    <div class="btn-area">
+                        <button type="submit" class="btn btn-default btn-primary">Submit</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="user-avatar">
+                        <img src="../img/avatar.jpg">
+                    </div>
+                    <div class="upload-avatar">
+                        <input type="file" name="avatar" id="userAvatar">
+                        <a href="#" class="upload-btn">点我上传头像</a>
+                    </div>
+                    <div>
+                        <span id="progress"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="../js/wangEditor.min.js" type="text/javascript"></script>
+    <script src="../js/imgPreview.js" type="text/javascript"></script>
+    <script src="../js/user.js" type="text/javascript"></script>
+</body>
+</html>
