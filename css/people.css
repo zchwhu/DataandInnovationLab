@@ -1,0 +1,67 @@
+.person-item{
+    margin-bottom: 30px;
+    /*margin-right: 10px;*/
+}
+
+.cover{
+    position: absolute;
+    width: calc(100% - 30px);
+    height: 35%;
+    bottom: 0;
+    left: 15px;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fff 70%) repeat scroll 0 0;
+    z-index: 9;
+}
+
+.person-item-main{
+    padding: 20px;
+    position: relative;
+    box-shadow: 1px 1px 6px #ccc;
+}
+
+.person-avatar{
+    clear: both;
+    margin: 10px 15px 5px 10px;
+}
+
+.person-avatar img{
+    width: 150px;
+    height: 180px;
+    display: block;
+}
+
+.person-info p{
+    line-height: 25px;
+    color: #4b4b4b;
+}
+
+.person-info strong{
+    margin-right: 5px;
+}
+
+.person-desc{
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 25px;
+    text-align: justify;
+    color: #888;
+    margin-left: 10px;
+}
+
+.person-more{
+    position: absolute;
+    color: #7e7e7e;
+    bottom: 10px;
+    right: 25px;
+    z-index: 10;
+}
+
+.person-more span{
+    margin-left: 5px;
+}
+
+.person-more:hover{
+    color: #28617d;
+    font-weight: bold;
+    text-decoration: none;
+}
