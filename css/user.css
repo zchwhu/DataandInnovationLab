@@ -46,3 +46,7 @@ input[type='file']{
 .btn{
     font-size: 13px;
 }
+
+.select-area{
+    margin-top: 20px;
+}
