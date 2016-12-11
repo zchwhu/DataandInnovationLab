@@ -1,0 +1,42 @@
+.active:hover{
+    background: #3f9bc9;
+}
+
+.main-area{
+    padding-right: 50px;
+}
+
+.main-area h3{
+    padding-left: 40px;
+}
+
+.news-item{
+    padding: 15px 20px 25px 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.news-item:first-child{
+    padding-top: 0;
+}
+
+.news-title{
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.news-time{
+    font-size: 13px;
+    line-height: 30px;
+    color: #999;
+}
+
+.news-abs{
+    text-align: justify;
+    line-height: 20px;
+    font-size: 13px;
+    color: #666;
+}
+
+.more{
+    margin-left: 10px;
+}
