@@ -1,0 +1,52 @@
+#proEditor{
+    height: 200px;
+}
+
+.pro-avatar{
+    text-align: center;
+}
+
+.pro-avatar img{
+    max-width: 100%;
+}
+
+.upload-avatar{
+    position: relative;
+    margin-top: 20px;
+}
+
+.upload-btn{
+    text-align: center;
+    display: block;
+}
+
+input[type='file']{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.upload-btn:hover{
+    text-decoration: none;
+}
+
+.select-area{
+    margin-top: 20px;
+}
+
+.upload-tip{
+    font-size: 12px;
+    color: #999;
+    margin: 8px;
+    display: block;
+    text-align: center;
+}
+
+.checkbox-area{
+    margin-bottom: 8px;
+}
