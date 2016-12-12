@@ -1,0 +1,61 @@
+.add-btn{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.news-list{
+    padding: 0;
+}
+
+.news-item{
+    padding: 20px 10px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.news-img{
+    margin-right: 20px;
+}
+
+.news-img img{
+    width: 200px;
+    height: 150px;
+}
+
+
+.news-title{
+    color: #7f1314;
+    font-size: 18px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.news-meta{
+    color: #666;
+    line-height: 25px;
+}
+
+.news-meta span{
+    margin-right: 20px;
+}
+
+.news-meta span strong{
+    margin-right: 5px;
+}
+
+.news-info{
+    text-align: justify;
+}
+
+.news-btn{
+    height: 30px;
+    text-align: right;
+}
+
+.news-btn a{
+    margin-right: 10px;
+    line-height: 30px;
+}
