@@ -1,0 +1,52 @@
+.pro-item{
+    padding: 5px;
+    height: 320px;
+}
+
+.pro-item-main{
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    height: 310px;
+    position: relative;
+}
+
+.pro-img img{
+    width: 100%;
+    display: block;
+    height: 100px;
+}
+
+.pro-btn{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+}
+
+.pro-info{
+    margin-top: 15px;
+    line-height: 20px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.pro-info>p{
+    margin-bottom: 5px;
+}
+
+.pro-info>p>strong{
+    margin-right: 5px;
+}
+
+.pro-btn>a{
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+.add-btn{
+    font-size: 16px;
+    margin-top: 5px;
+}
