@@ -43,3 +43,12 @@ label{
 .btn{
     font-size: 13px;
 }
+
+textarea{
+    resize: none;
+}
+
+.checkbox{
+    display: inline-block;
+    margin-right: 5px;
+}
