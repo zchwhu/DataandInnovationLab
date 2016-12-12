@@ -1,0 +1,54 @@
+.see-added-btn{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.form-group label{
+    width: 100px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.form-control-wrapper{
+    overflow: hidden;
+}
+
+.pub-added{
+    margin-top: 30px;
+}
+
+.pub-time{
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    background: #fff;
+    z-index: 10;
+}
+
+.pub-year-list{
+    overflow: hidden;
+}
+
+.pub-added-inner{
+    position: relative;
+}
+
+.pub-added-inner::before{
+    content: '';
+    height: 100%;
+    width: 2px;
+    background: #ccc;
+    top: 0;
+    left: 50px;
+    position: absolute;
+    z-index: -1;
+}
+
+.pub-year-item{
+    margin-bottom: 10px;
+}
+
+.pub-year-item:first-child{
+    margin-top: 3px;
+}
