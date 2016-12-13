@@ -7,7 +7,7 @@ $(function () {
     })
 
     var editor = new wangEditor('userEditor');
-
+    editor.config.uploadImgUrl = 'moment/uploadimg';
     editor.config.menus = [
         'source',
         'bold',

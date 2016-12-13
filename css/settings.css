@@ -1,0 +1,23 @@
+.btn-area{
+    text-align: right;
+}
+
+.tag-area{
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+}
+
+.tag{
+    display: inline-block;
+    font-size: 12px;
+    background-color: #428BCA;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+
+.tag-remove{
+    cursor: pointer;
+}

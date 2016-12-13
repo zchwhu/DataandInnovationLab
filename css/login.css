@@ -1,0 +1,67 @@
+nav.has-bg {
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+}
+
+.nav-item>a{
+    color: #494949;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/login1.jpg") no-repeat center;
+    background-size: 100% 100%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-wrapper{
+    flex-grow: 1;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    padding: 60px 70px;
+    width: 450px;
+    background-color: #f1efee;
+    opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.login h3{
+    text-align: center;
+    color: #3A5FCD;
+    font-weight: 700;
+}
+
+.login label{
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 35px;
+    color: #3A5FCD;
+    text-align: center;
+    display: block;
+}
+
+.btn{
+    background-image: none;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 15px;
+    -webkit-transition: background-color .4s ease-in-out 0s;
+    -moz-transition: background-color .4s ease-in-out 0s;
+    -ms-transition: background-color .4s ease-in-out 0s;
+    -o-transition: background-color .4s ease-in-out 0s;
+    transition: background-color .4s ease-in-out 0s;
+}
+
+small{
+    text-align: right;
+    margin-right: 8px;
+}
