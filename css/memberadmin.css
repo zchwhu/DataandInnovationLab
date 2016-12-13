@@ -1,0 +1,118 @@
+.mem-item{
+    padding: 5px;
+    height: 400px;
+}
+
+.add-btn{
+    padding: 5px;
+    height: 400px;
+}
+
+
+.mem-item-main,.add-btn-main{
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    height: 390px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.add-btn-main::before{
+    width: 150px;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #eee;
+    left: 50%;
+    margin-left: -75px;
+    top: 40%;
+}
+
+.add-btn-main::after{
+    width: 2px;
+    height: 150px;
+    content: '';
+    position: absolute;
+    background-color: #eee;
+    left: 50%;
+    margin-top: -75px;
+    top: 40%;
+}
+
+.add-btn-main span{
+    color: #AAAAAA;
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.add-btn-main:hover{
+    text-decoration: none;
+}
+
+.add-btn-main{
+    display: block;
+    text-align: center;
+}
+
+.mem-img img{
+    max-width: 100%;
+    display: block;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.mem-btn{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+}
+
+.mem-info{
+    margin-top: 15px;
+    line-height: 20px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.mem-info>p{
+    margin-bottom: 5px;
+}
+
+.mem-info>p>strong{
+    margin-right: 5px;
+}
+
+.mem-btn>a{
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+.mem-moment{
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 32px;
+    background-size: 32px 30px;
+    font-weight: 700;
+}
+
+.bind-moment{
+    color: #5cb85c;
+    background: url("../img/bind.png") no-repeat left center;
+}
+
+.unbind-moment{
+    color: #d9534f;
+    background: url("../img/unbind.png") no-repeat left center;
+}
