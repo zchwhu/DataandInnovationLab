@@ -38,6 +38,28 @@ li{
     /*margin: 0 -3px;*/
 }
 
+.has-subnav{
+    position: relative;
+}
+
+.subnav{
+    position: absolute;
+    right: 0;
+    width: 180px;
+    top: 41px;
+    display: none;
+    background-color: #30719a;
+    padding: 0;
+}
+
+.has-subnav:hover .subnav{
+    display: block;
+}
+
+.subnav-item{
+    border-bottom: 1px solid #fff;
+}
+
 .nav-item.active,.nav-item:hover{
     background: #428bca;
     -webkit-transition: all .4s ease-in-out 0s;
@@ -47,7 +69,7 @@ li{
     transition: all .4s ease-in-out 0s;
 }
 
-.nav-item>a{
+.nav-item a{
     height: 40px;
     padding: 5px 20px;
     display: block;
@@ -55,6 +77,11 @@ li{
     color: inherit;
 }
 
-.nav-item>a:hover{
+.nav-item a:hover{
+    text-decoration: none;
+}
+
+a:focus{
+    outline: none;
     text-decoration: none;
 }
