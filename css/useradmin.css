@@ -1,0 +1,62 @@
+table{
+    text-align: center;
+}
+
+thead{
+    background-color: #428bca;
+    color: #fff;
+}
+
+.user-add-btn{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+td .btn{
+    padding: 0;
+    width: 20px;
+}
+
+td .btn a{
+    color: #fff;
+}
+
+.member-list{
+    padding-left: 0;
+}
+
+.member-item{
+    padding: 10px 0 10px 20px;
+}
+
+.member-item .radio{
+    margin: 0;
+}
+
+.member-item:hover{
+    background-color: #F9F9F9;
+}
+
+.user-bind-modal .modal-body{
+    padding: 0;
+}
+
+.modal-body h5{
+    padding-left: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.modal-header{
+    background-color: #428BCA;
+    color: #fff;
+    padding: 10px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.modal-header .close{
+    margin-top: 3px;
+}
