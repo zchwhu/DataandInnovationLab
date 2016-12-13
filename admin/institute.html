@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Institute Settings</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/adminnav.css" rel="stylesheet" type="text/css">
+    <link href="../css/admincommon.css" rel="stylesheet" type="text/css">
+    <link href="../css/settings.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav>
+        <div class="nav-inner container">
+            <a href="#" class="nav-logo">Data and Innovation Lab</a>
+            <h2 class="pull-right">Content Management</h2>
+        </div>
+    </nav>
+    <header>
+        <ul class="header-inner container">
+            <li class="nav-item active">
+                <a href="#">USER</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">PROJECT</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">NEWS</a>
+            </li>
+            <li class="nav-item has-subnav">
+                <a href="#">SETTINGS</a>
+                <ul class="subnav">
+                    <li class="subnav-item">
+                        <a href="#">Direction Settings</a>
+                    </li>
+                    <li class="subnav-item">
+                        <a href="#">Institute Settings</a>
+                    </li>
+                    <li class="subnav-item">
+                        <a href="#">Department Settings</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="container">
+            <h3 class="main-title">Add new institute</h3>
+            <form>
+                <div class="form-group">
+                    <input type="text" name="direction" class="form-control" placeholder="Enter a new institute">
+                </div>
+                <div class="btn-area">
+                    <button class="btn btn-default btn-primary">Submit</button>
+                </div>
+            </form>
+            <h3 class="main-title">Existing Institute</h3>
+            <div class="tag-area">
+                <div class="tag">
+                    <span>Wuhan University</span>
+                    <span class="glyphicon glyphicon-remove tag-remove"></span>
+                </div>
+                <div class="tag">
+                    <span>Nanjing University</span>
+                    <span class="glyphicon glyphicon-remove tag-remove"></span>
+                </div>
+                <div class="tag">
+                    <span>Chicago University</span>
+                    <span class="glyphicon glyphicon-remove tag-remove"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="../js/settings.js" type="text/javascript"></script>
+</body>
+</html>
