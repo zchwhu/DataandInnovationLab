@@ -12,9 +12,17 @@ $(function () {
         if(confirm("Are you sure you want to delete the user?")){
             $(this).parents("tr").remove();
         }
+    }).on("click",".user-edit-btn",function () {
+        var $username = $(this).parents("td").siblings("td:first-child").text();
+        $(".user-edit-modal").find("input[name='username']").val($username);
+        $(".user-edit-modal").modal();
     });
 
     $('.user-add-modal').on('hidden.bs.modal', function (e) {
+        $(this).find(":input").val('');
+    })
+
+    $('.user-edit-modal').on('hidden.bs.modal', function (e) {
         $(this).find(":input").val('');
     })
 
