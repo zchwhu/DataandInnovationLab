@@ -1,0 +1,26 @@
+#carouselPreview{
+    height: 500px;
+    padding: 10px;
+    border: 1px solid #eee;
+    margin-top: 10px;
+}
+
+#carouselPreview img{
+    width: 100%;
+    height: 100%;
+}
+
+.upload-carousel{
+    position: relative;
+    margin-left: 5px;
+}
+
+#uploadImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+}
