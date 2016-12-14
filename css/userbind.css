@@ -1,0 +1,35 @@
+.member-area{
+    margin-top: 20px;
+    border: 1px solid #eee;
+}
+
+.form-group{
+    margin: 10px 20px;
+    width: 80%;
+}
+
+.form-group label{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.member-list{
+    padding-left: 0;
+}
+
+.member-item{
+    padding: 10px 0 10px 20px;
+}
+
+.member-item .radio{
+    margin: 0;
+}
+
+.member-item:hover{
+    background-color: #F9F9F9;
+}
+
+.pager-nav{
+    text-align: center;
+    width: 100%;
+}
