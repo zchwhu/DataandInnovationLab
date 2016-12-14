@@ -22,31 +22,8 @@ td .btn a{
     color: #fff;
 }
 
-.member-list{
-    padding-left: 0;
-}
-
-.member-item{
-    padding: 10px 0 10px 20px;
-}
-
-.member-item .radio{
-    margin: 0;
-}
-
-.member-item:hover{
-    background-color: #F9F9F9;
-}
-
 .user-bind-modal .modal-body{
     padding: 0;
-}
-
-.modal-body h5{
-    padding-left: 20px;
-    font-weight: 700;
-    margin-top: 20px;
-    font-size: 16px;
 }
 
 .modal-header{
