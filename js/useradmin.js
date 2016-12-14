@@ -6,8 +6,6 @@ $(function () {
         $(".user-add-modal").modal();
     }).on("mouseover",".admin-tooltip",function () {
         $(this).tooltip("show");
-    }).on("click",".user-bind-btn",function () {
-        $(".user-bind-modal").modal();
     }).on("click",".user-del-btn",function () {
         if(confirm("Are you sure you want to delete the user?")){
             $(this).parents("tr").remove();
@@ -26,7 +24,4 @@ $(function () {
         $(this).find(":input").val('');
     })
 
-    $('.user-bind-modal').on('hidden.bs.modal', function (e) {
-        $(this).find("input[type='radio']").prop("checked",false);
-    })
 })
