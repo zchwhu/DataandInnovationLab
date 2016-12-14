@@ -54,7 +54,7 @@
                             <td>Zhao chaoye</td>
                             <td>Administrator</td>
                             <td>
-                                <button class="admin-tooltip btn btn-default btn-success" data-toggle="tooltip" data-placement="top" title="Edit User">
+                                <button class="user-edit-btn admin-tooltip btn btn-default btn-success" data-toggle="tooltip" data-placement="top" title="Edit User">
                                     <a class="glyphicon glyphicon-edit"></a>
                                 </button>
                                 <button class="user-del-btn admin-tooltip btn btn-default btn-danger" title="Delete User">
@@ -67,7 +67,7 @@
                             <td></td>
                             <td>Original User</td>
                             <td>
-                                <button class="admin-tooltip btn btn-default btn-success" data-toggle="tooltip" data-placement="top" title="Edit User">
+                                <button class="user-edit-btn admin-tooltip btn btn-default btn-success" data-toggle="tooltip" data-placement="top" title="Edit User">
                                     <a class="glyphicon glyphicon-edit"></a>
                                 </button>
                                 <button class="user-bind-btn admin-tooltip btn btn-default btn-primary" data-toggle="tooltip" data-placement="top" title="Bind User">
@@ -166,6 +166,35 @@
             </div>
         </div>
     </div>
+    <div class="modal fade user-edit-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">Edit user</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="username">Name</label>
+                        <input type="text" class="form-control" id="username" name="username" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="resetpassword">Reset password</label>
+                        <input type="password" class="form-control" id="resetpassword" name="resetpassword">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmpassword">Confirm password</label>
+                        <input type="password" class="form-control" id="confirmpassword" name="confirmpassword">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="../js/jquery-3.1.1.min.js" type="text/javascript"></script>
     <script src="../js/bootstrap.min.js" type="text/javascript"></script>
     <script src="../js/useradmin.js" type="text/javascript"></script>
