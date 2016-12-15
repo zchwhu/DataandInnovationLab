@@ -1,0 +1,44 @@
+.main-title span{
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.pub-add-btn{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.pub-list{
+    padding: 0;
+}
+
+.pub-item{
+    padding: 10px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.pub-opera{
+    text-align: center;
+}
+
+.pub-opera a{
+    margin-left: 10px;
+}
+
+.pub-year{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: right;
+}
+
+.modal-header{
+    background-color: #428BCA;
+    color: #fff;
+    padding: 10px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.modal-header .close{
+    margin-top: 3px;
+}
