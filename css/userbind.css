@@ -10,12 +10,6 @@
     position: relative;
 }
 
-.bind-btn{
-    position: absolute;
-    right: -60px;
-    bottom: 2px;
-}
-
 .form-group label{
     margin-bottom: 10px;
     font-size: 15px;
@@ -27,6 +21,7 @@
 
 .member-item{
     padding: 10px 0 10px 20px;
+    position: relative;
 }
 
 .member-item .radio{
@@ -48,6 +43,24 @@
 
 .bind{
     color: #5CB85C;
+}
+
+.bind-btn{
+    position: absolute;
+    right: 10px;
+    top: -6px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -ms-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+
+input[type='radio']:checked+.bind-btn{
+    visibility: visible;
+    opacity: 1;
 }
 
 .radio>label:not(:first-child){
