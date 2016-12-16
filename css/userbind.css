@@ -6,6 +6,14 @@
 .form-group{
     margin: 10px 20px;
     width: 80%;
+    display: inline-block;
+    position: relative;
+}
+
+.bind-btn{
+    position: absolute;
+    right: -60px;
+    bottom: 2px;
 }
 
 .form-group label{
@@ -29,7 +37,19 @@
     background-color: #F9F9F9;
 }
 
+.member-item.forbidden{
+    background-color: #ddd;
+}
+
 .pager-nav{
     text-align: center;
     width: 100%;
+}
+
+.bind{
+    color: #5CB85C;
+}
+
+.radio>label:not(:first-child){
+    padding-left: 10px;
 }
