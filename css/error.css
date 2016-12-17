@@ -1,0 +1,48 @@
+.error-area{
+    text-align: center;
+}
+
+.error-area-inner{
+    margin:50px auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.main-tip{
+    font-size: 35px;
+    color: #666;
+    display: inline-block;
+    padding-top: 88px;
+    padding-right: 128px;
+    line-height: 40px;
+}
+
+.tip401{
+    background: url("../img/401.png") no-repeat right bottom;
+}
+
+.tip404{
+    background: url("../img/404.png") no-repeat right bottom;
+}
+
+.tip500{
+    background: url("../img/500.png") no-repeat right bottom;
+    background-size: 108px 95px;
+}
+
+.sub-tip{
+    line-height: 22px;
+    color: #6c6c6c;
+}
+
+strong{
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: underline;
+    color: #6c6c6c;
+}
+
+h5{
+    line-height: 18px;
+    color: #999;
+}
