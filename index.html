@@ -15,19 +15,19 @@
         <div class="nav-inner container">
             <a href="#" class="nav-logo">Data and Innovation Lab</a>
             <ul class="nav-list">
-                <li class="nav-item">
+                <li class="nav-item nav-menu">
                     <a href="#">News</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-menu">
                     <a href="#">Projects</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-menu">
                     <a href="#">People</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-menu">
                     <a href="#">Tools</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-menu">
                     <a href="#">Publication</a>
                 </li>
                 <li class="nav-item nav-input">
@@ -36,7 +36,7 @@
                         <button type="submit"></button>
                     </form>
                 </li>
-                <li class="nav-item has-subnav">
+                <li class="nav-item has-subnav nav-user">
                     <span class="glyphicon glyphicon-user"></span>
                     <a href="#">Zhao chaoye</a>
                     <ul class="subnav">
@@ -54,11 +54,72 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-admin">
                     <span class="glyphicon glyphicon-cog"></span>
                     <a href="#">Admin</a>
                 </li>
+                <li class="nav-item nav-collapse-menu">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </a>
+                    <div class="nav-col-menu-main">
+                        <div class="nav-col-menu-seaction">
+                            <h4>
+                                <span class="glyphicon glyphicon-th-list"></span>
+                                <span> Navbar</span>
+                            </h4>
+                            <ul class="nav-col-menu-list">
+                                <li class="nav-col-menu-item">
+                                    <a href="#">News</a>
+                                </li>
+                                <li class="nav-col-menu-item">
+                                    <a href="#">Projects</a>
+                                </li>
+                                <li class="nav-col-menu-item">
+                                    <a href="#">people</a>
+                                </li>
+                                <li class="nav-col-menu-item">
+                                    <a href="#">Tools</a>
+                                </li>
+                                <li class="nav-col-menu-item">
+                                    <a href="#">Publication</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-col-menu-seaction nav-col-user">
+                            <h4>
+                                <span class="glyphicon glyphicon-user"></span>
+                                <span> Navbar</span>
+                            </h4>
+                            <ul class="nav-col-menu-list">
+                                <li class="nav-col-menu-item">
+                                    <a href="#">My Publication</a>
+                                </li>
+                                <li class="nav-col-menu-item">
+                                    <a href="#">My Information</a>
+                                </li>
+                                <li class="nav-col-menu-item">
+                                    <a href="#">My Project</a>
+                                </li>
+                                <li class="nav-col-menu-item">
+                                    <a href="#">My Tool</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-col-menu-seaction nav-col-admin">
+                            <h4>
+                                <span class="glyphicon glyphicon-cog"></span>
+                                <span> Admin</span>
+                            </h4>
+                            <ul class="nav-col-menu-list">
+                            </ul>
+                        </div>
+                    </div>
+                </li>
             </ul>
+            <div class="nav-full-search">
+                <input type="text" name="query" placeholder="input keyword">
+            </div>
         </div>
     </nav>
     <header>
@@ -259,8 +320,8 @@
         </div>
     </footer>
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
-    <script type="text/javascript" src="js/carousel.js">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
         $(function () {
             $(".carousel").carousel();
         })
