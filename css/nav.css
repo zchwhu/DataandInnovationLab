@@ -4,6 +4,7 @@
     text-indent:-9999px;
     width: 315px;
     height: 100px;
+    background-size: 100% 100%;
 }
 
 .nav-list{
@@ -25,7 +26,7 @@
     position: relative;
 }
 
-.nav-item::after{
+.nav-menu::after{
     content: '';
     position: absolute;
     width: 0;
@@ -41,7 +42,7 @@
     transition: width .4s ease-in-out 0s;
 }
 
-.nav-item:not(:last-child):hover::after{
+.nav-menu:hover::after{
     width: 100%;
 }
 
@@ -57,7 +58,7 @@
     text-decoration: none;
 }
 
-.nav-search{
+.nav-search,.nav-full-search{
     border: 1px solid #ccc;
     padding: 3px 12px 3px 32px;
     border-radius: 2px;
@@ -65,7 +66,7 @@
     background: url("../img/find.png") no-repeat 8px center;
 }
 
-.nav-search input{
+.nav-search input,.nav-full-search input{
     border: 0;
     color: #cfcfcf;
     font-size: 14px;
@@ -75,6 +76,12 @@
     -ms-transition: color .4s ease-in-out 0s;
     -o-transition: color .4s ease-in-out 0s;
     transition: color .4s ease-in-out 0s;
+    width: 100%;
+}
+
+.nav-full-search{
+    margin-bottom:10px;
+    display: none;
 }
 
 .nav-search input:focus{
@@ -155,4 +162,96 @@ nav.has-bg{
 
 .subnav-item:hover>a{
     color: #337ab7;
+}
+
+.nav-collapse-menu{
+    font-size: 20px;
+    display: none;
+    position: relative;
+    padding: 0 10px 0 20px;
+}
+
+.nav-col-menu-main{
+    padding: 10px 0;
+    position: absolute;
+    top: 24px;
+    right: 0;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.94) none repeat scroll 5px 0;
+    min-width: 180px;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    display: none;
+}
+
+.nav-collapse-menu:hover>.nav-col-menu-main{
+    display: block;
+}
+
+.nav-col-menu-list{
+    padding: 0;
+}
+
+.nav-col-menu-seaction>h4{
+    padding: 8px 10px 8px 15px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.nav-col-menu-seaction>h4 .glyphicon{
+    margin-right: 5px;
+}
+
+.nav-col-admin,.nav-col-user{
+    display: none;
+}
+
+.nav-col-menu-item>a{
+    display: block;
+    padding: 8px 15px 8px 40px;
+    font-size: 14px;
+}
+
+.nav-col-menu-item>a:hover{
+    color: #337ab7;
+}
+
+@media (max-width: 1200px) {
+    .nav-menu{
+        display: none;
+    }
+    .nav-collapse-menu{
+        display: inline-block;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-input{
+        display: none;
+    }
+    .nav-full-search{
+        display: block;
+    }
+    .nav-logo{
+        width: 250px;
+        height: 80px;
+    }
+}
+
+
+@media(max-width: 768px){
+    .nav-logo{
+        width: 200px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 520px) {
+    .nav-user,.nav-admin{
+        display: none;
+    }
+    .nav-col-admin,.nav-col-user{
+        display: block;
+    }
 }
