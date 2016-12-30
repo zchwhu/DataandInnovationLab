@@ -17,6 +17,9 @@
     padding: 20px;
     position: relative;
     box-shadow: 1px 1px 6px #ccc;
+    min-height: 400px;
+    max-height: 400px;
+    overflow: hidden;
 }
 
 .person-avatar{
